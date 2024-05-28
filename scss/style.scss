@@ -1,0 +1,39 @@
+@import "null";
+@import "fonts";
+@import "header";
+@import "about";
+@import "team";
+@import "contacts";
+@import "footer";
+@import "aware";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+	font-family: "Lato", sans-serif;
+    font-weight: 400;	
+}
+:root {
+	--accent-color: #01996d;
+	--text-color: #292929;
+	--white-color: #fff;
+	--bg-color: #245852;
+}
+.title{
+	font-family: "Georgia";
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+}
+.button {
+	display: block;
+	border-radius: 4px;
+	background-color: var(--accent-color);
+	line-height: 125%;
+	color: var(--white-color);
+}
+
+@media screen and (max-width:769px){
+
+}
+@media screen and (max-width:376px){
+
+}
