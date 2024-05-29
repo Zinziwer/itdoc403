@@ -1,10 +1,6 @@
 .aware {
 	background: url(../img/BG.jpg) center no-repeat;
 	min-height: 895px;
-	&__container {
-		max-width: 1370px;
-		margin: 0 auto;
-	}
 
 	&__title {
 		font-family: "Georgia";
@@ -26,5 +22,29 @@
 
 	&__button {
 		padding: 20px 50px;
+	}
+}
+@media screen and (max-width:1200px){
+	.aware {
+		min-height: 600px;
+		&__title {
+			padding-top: 90px;
+		}
+	}
+}
+
+@media screen and (max-width:741px){
+	.aware {
+		background: url(../img/BG.jpg) left no-repeat;
+		// background: url(../img/BG.jpg)  0 0/auto 100% no-repeat;
+	}
+
+}
+@media screen and (max-width:376px){
+	.aware {
+		&__title {
+			padding-top: 40px;
+			font-size: 45px;
+		}
 	}
 }

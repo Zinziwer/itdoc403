@@ -1,20 +1,10 @@
-$(document).ready(function() {
-	// плавная прокрутка и изменение active в меню
-	$('nav a[href^="#"]').click(function() {
-		let target = $(this).attr('href');
-		$('html, body').animate({
-			scrollTop: $(target).offset().top
-		},500);
-		$('nav a[href^="#"]').parent().removeClass('active');
-		$(this).parent().addClass('active');
-		$('.menu__mobile .menu').toggle(500);
-		$('.menu__burger').toggleClass('close');
-		return false;
-	});
-	// меню бургер
-	$('.menu__burger').click(function(){
-		$('.menu__mobile .menu').toggle(500);
-		$(this).toggleClass('close');
-
-	});
-});
+let burgerIcon = document.querySelector('.menu__burger');
+let menu = document.querySelector('.header__menu');
+let hb = document.querySelector('.header__buttons');
+let body = document.querySelector('body');
+burgerIcon.addEventListener('click', function(){
+    burgerIcon.classList.toggle('active');
+    menu.classList.toggle('active');
+	hb.classList.toggle('active');
+    body.classList.toggle('lock');
+})
