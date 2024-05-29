@@ -23,6 +23,11 @@
 
 	&__button {
 		padding: 20px 50px;
+		border: var(--accent-color) 1px solid;
+	}
+	&__button:hover {
+		border: white 1px solid;
+		transition-duration: 600ms;
 	}
 	&__pic {
 		border-radius: 18px;

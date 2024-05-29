@@ -131,7 +131,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
 .header__sign:hover {
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
   text-decoration: underline;
+  color: var(--accent-color);
 }
 .header__button {
   padding: 13px 50px;
@@ -144,6 +147,13 @@ h1, h2, h3, h4, h5, h6 {
 .menu__item a {
   padding: 15px;
   color: var(--text-color);
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+}
+.menu__item:hover a {
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+  color: var(--accent-color);
 }
 
 .about {
@@ -170,6 +180,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about__button {
   padding: 20px 50px;
+  border: var(--accent-color) 1px solid;
+}
+.about__button:hover {
+  border: white 1px solid;
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
 }
 .about__pic {
   border-radius: 18px;
@@ -434,6 +450,13 @@ body {
   border-radius: 4px;
   background-color: var(--accent-color);
   line-height: 125%;
+  color: var(--white-color);
+}
+
+.button:hover {
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+  background-color: var(--bg-color);
   color: var(--white-color);
 }
 
