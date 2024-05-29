@@ -1,3 +1,111 @@
-.team{
-	font-family: "Lato Semibold", sans-serif;
+.team {
+	padding-top: 120px;
+	margin-bottom: 240px;
+
+	&__container {
+		max-width: 1370px;
+		margin: 0 auto;
+		display: flex;
+	}
+
+	&__image {
+		position: relative;
+		padding-left: 60px;
+	}
+
+	&__pic {
+	}
+
+	&__card {
+	}
+
+	&__right {
+		padding-left: 87px;
+	}
+
+	&__rem {
+		padding: 7px 0 18px;
+		font-size: 25px;
+		letter-spacing: -0.3px;
+	}
+
+	&__title {
+		color: var(--accent-color);
+		margin-bottom: 22px;
+	}
+
+	&__text {
+		color: #484848;
+		line-height: 28px;
+		margin-bottom: 35px;
+		letter-spacing: 0.1px;
+	}
+
+	&__button {
+		padding: 20px 50px;
+	}
+}
+.card {
+	position: absolute;
+	background-color: var(--white-color);
+	width: 296px;
+	height: 293px;
+	color: #000;
+	padding: 27px 0;
+	text-align: center;
+	top: 354px;
+	left: 0px;
+	border-radius: 4px;
+	// box-shadow: 0px 2px 22px 3px rgba(34, 60, 80, 0.2);
+	box-shadow: 0 4px 18px 0 rgba(165, 165, 165, 0.25);
+
+	&__title {
+		font-weight: 600;
+		font-size: 14px;
+		font-size: 14px;
+		margin-bottom: 8px;
+	}
+	&__line{
+		display: inline-block;
+		width: 110px;
+		height: 0.75px;
+		background-color: #000;
+		margin-bottom: 10px;
+	}
+	&__image {
+		margin-bottom: 10px;
+	}
+
+	&__pic {
+		width: 58px;
+		height: 58px;
+		border-radius: 50%;
+	}
+
+	&__name {
+		font-size: 12px;
+		margin-bottom: 25px;
+	}
+
+	&__subtitle {
+		font-family: "Georgia";
+		font-size: 16px;
+		font-weight: bold;
+		padding-left: 61px;
+		text-align: left;
+		margin-bottom: 16px;
+	}
+
+	&__list {
+		font-size: 10px;
+		padding-left: 61px;
+		text-align: left;
+	}
+
+	&__item {
+		margin-bottom: 16px;	
+	}
+	&__item:last-child {
+		margin-bottom: 0px;	
+	}
 }

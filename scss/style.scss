@@ -3,13 +3,14 @@
 @import "header";
 @import "about";
 @import "team";
-@import "contacts";
 @import "footer";
 @import "aware";
+@import "how";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 body{
 	font-family: "Lato", sans-serif;
-    font-weight: 400;	
+    font-weight: 400;
+	font-size: 20px;	
 }
 :root {
 	--accent-color: #01996d;
@@ -24,11 +25,15 @@ body{
 	line-height: 157%;
 }
 .button {
-	display: block;
+	display: inline-block;
 	border-radius: 4px;
 	background-color: var(--accent-color);
 	line-height: 125%;
 	color: var(--white-color);
+}
+.rem{
+	font-weight: 600;
+	color: #424242;
 }
 
 @media screen and (max-width:769px){

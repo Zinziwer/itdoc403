@@ -1,0 +1,72 @@
+.how {
+	padding-top: 175px;
+	margin-bottom: 27px;
+	&__container {
+		max-width: 1370px;
+		margin: 0 auto;
+	}
+	&__rem {
+		font-size: 24px;
+		margin-bottom: 6px;
+	}
+
+	&__up-inner {
+		display: flex;
+	}
+
+	&__down {
+		display: flex;
+	}
+}
+.up-inner {
+	margin-bottom: 91px;
+	&__title {
+		color: var(--accent-color);
+		padding-right: 110px;
+		flex: 0 0 50%;
+	}
+
+	&__text {
+		font-weight: 500;
+		flex: 0 0 50%;
+		padding-left: 24px;
+		padding-top: 28px;
+		letter-spacing: 1px;
+		line-height: 28px;
+	}
+}
+.hitem {
+	max-width: 390px;
+	margin-right: 95px;
+	&__title {
+		font-family: "Georgia";
+		font-size: 150px;
+		color: rgba(1, 153, 109, 0.2);
+		position: relative;
+		margin-bottom: 47px;
+	}
+
+	&__subtitle {
+		position: absolute;
+		font-weight: 700;
+		font-size: 30px;
+		color: #000;
+		top: 105px;
+		left: 88px;
+	}
+
+	&__text {
+		font-weight: 500;
+		line-height: 30px;
+		color: #424242;
+		letter-spacing: 0.2px;
+		margin-bottom: 60px;
+	}
+}
+.hitem:last-child {
+	padding-top: 54px;
+	margin-right: 0px;
+}
+.hitem:nth-child(2) {
+	padding-top: 287px;
+}

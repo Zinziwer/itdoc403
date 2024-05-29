@@ -1,0 +1,30 @@
+.aware {
+	background: url(../img/BG.jpg) center no-repeat;
+	min-height: 895px;
+	&__container {
+		max-width: 1370px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		font-family: "Georgia";
+		padding-top: 175px;
+		font-weight: 700;
+		font-size: 65px;
+		line-height: 75px;
+		color: var(--accent-color);
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 29px;
+		color: #484848;
+		max-width: 430px;
+		margin-bottom: 53px;
+	}
+
+	&__button {
+		padding: 20px 50px;
+	}
+}
