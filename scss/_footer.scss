@@ -2,10 +2,11 @@
 	background-color: var(--bg-color);
 
 	&__container {
-		padding: 104px 15px 144px;
+		padding: 104px 15px 144px !important;
 	}
 
 	&__logo {
+		display: inline-block;
 		font-family: "avenir";
 		font-weight: bold;
 		font-size: 40px;
